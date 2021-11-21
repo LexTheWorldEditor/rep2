@@ -62,19 +62,19 @@ def sim(num):
             return "false"
     return "true"
 
-x = int(input("Enter number:"))
+x = int(input("Enter number: "))
 print(isPal(x))
 ls = [ ]
-n = int(input("Enter amount of numbers in list:"))
+n = int(input("Enter amount of numbers in list: "))
 for i in range(0,n):
     ls.append(int(input("Enter number in list: ")))
 listSplitter(ls)
 print(reverser(x))
 
-num = int(input("Enter number for root calculating:")) 
-s = float(input("Enter index of root:")) 
+num = int(input("Enter number for root calculating: ")) 
+s = float(input("Enter index of root: ")) 
 print (rt(num, s))
 
-idle = int(input("Enter number from 0 to 100000:"))
+idle = int(input("Enter number from 0 to 100000: "))
 print(sim(idle))
 
